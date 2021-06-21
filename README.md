@@ -18,7 +18,7 @@ Doctor portal GUI:
 
 # procedure to run code
 * first create the database in desire server
-* change database name in code 
+* change database name and password in code 
 * once database is ready run the VaccineBooking.java code
 * same procedure with doctor.java code
 * to see the user details copy the refrence number(Ref_number) paste it in doctor GUI.
