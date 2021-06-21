@@ -1,0 +1,7 @@
+"name","vaccine","aadhar","mobile_number","Amount","Disability","age","Reg_Date","Recevied_Date","Payment","Dose","Status"
+"SABHAPATHI","PFIZER","243887465236","6263828196","1500.0","No","21","2021-06-25","2021-06-27","paid","First","Received"
+"LIKITH","NOVAVAX","241569872051","9568741235","1140.0","No","18","2021-06-29","2021-02-05","paid","First","Received"
+"RAMA","PFIZER","245698712302","6578942610","1200.0","Yes","35","2021-07-05","2021-07-07","paid","Second","Received"
+"DASTAGHEER","SPUTNIK V","241597863025","6254789102","800.0","No","22","2021-06-25","2021-06-28","paid","Second","Received"
+"RAJU","MODERNA","258963147258","9873546210","2375.0","No","30","2021-06-23","2021-06-25","Not paid","Second","Not Received"
+"SHIVAKUMAR","COVAXIN","254687912312","7896325410","190.0","No","20","2021-07-01","2021-07-05","paid","Second","Received"
