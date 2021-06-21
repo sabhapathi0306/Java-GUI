@@ -171,7 +171,7 @@ public class vaccineBooking implements ActionListener {
             //covaxibn--------------------------------------------------------------------------------------------------------------
             if (s.getValue() == "COVAXIN") {
                 try {
-                    Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/userdb", "adi", "2001");
+                    Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/userdb", "//username", "//password");
                     Date date = Date.valueOf(sDate1);
                     System.out.println(date);
                     if (aadhar.length() != 12 || mobile_number.length() != 10 || pin.length() != 6) {
