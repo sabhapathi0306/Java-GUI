@@ -156,7 +156,7 @@ public class doctor extends JFrame implements ActionListener {
                 } else {
                     //database connection-------------------------------------------------------------------------------------------
                     Class.forName("com.mysql.cj.jdbc.Driver");
-                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/userdb", "adi", "2001");
+                    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/userdb", "//username", "//password");
                     PreparedStatement st = con.prepareStatement("select * from details where Ref_number=?");
                     st.setString(1, str);
                     ResultSet rs = st.executeQuery();
@@ -192,7 +192,7 @@ public class doctor extends JFrame implements ActionListener {
                     if (e.getSource() == btn2) {
                         try {
 
-                            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/doctordb", "adi", "2001");
+                            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/doctordb", "//username", "//password");
                             Statement Sql_connection = connection.createStatement();
                             if (rs.next()) {
                                 String s1 = rs.getString("username");
